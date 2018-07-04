@@ -4,11 +4,14 @@
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
-    define('DB_NAME', 'tmvc');
+    define('DB_NAME', 'shareposts');
 
     // App Root
-     define('APPROOT', dirname(dirname(__FILE__)));
+    define('APPROOT', dirname(dirname(__FILE__)));
     // URL Root
     define('URLROOT', 'http://localhost/traversymvc');
     // Site Name
-    define('SITENAME', 'TraversyMVC');
+    define('SITENAME', 'SharePosts');
+    // App Version
+    define('APPVERSION', '1.0.0');
+
